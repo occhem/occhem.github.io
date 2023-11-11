@@ -1,0 +1,150 @@
+body {
+	margin:0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	font-size: 14px;
+	background-color: hsl(198, 10%, 46%);
+	}
+		/* Media query for smaller screens */
+@media screen and (max-width: 600px){ 
+	body {
+	  font-size: 14px; /* Adjust font size for smaller screens */
+	}
+}
+	header {
+		background-color: hsl(200, 60%, 29%);
+		padding: 35px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		text-align: center; /* Center the content horizontally */
+		overflow: hidden; /* Hide overflowing content */
+		}
+
+		.hr-container ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.hr-container li {
+			display: inline-block;
+			margin-right: 20px;
+			color: white;
+		}
+		
+		.hr-container a {
+			color: white;
+			text-decoration: none;
+			font-size: 20px;}
+	  
+	.container2 {
+		background: linear-gradient(to bottom, rgb(237, 5, 237), rgb(3, 56, 250));
+		display: flex;
+		flex:1;
+		margin-left:10%;
+		margin-right:10%;
+		align-items: center;
+		min-height: min-content;
+		max-height: max-content;		
+		height: 100vh; /*do not change any how*/
+		overflow: hidden;
+		}
+
+		.c2d1, .c2d2 {
+			align-items: center;
+			display: flex;
+			position:relative;
+			background:linear-gradient(to top, rgb(237, 5, 237), rgb(3, 56, 250));
+			backdrop-filter: saturate(7);
+			padding: 50px;
+			margin:0;
+			margin-left: auto;
+			margin-right: auto;
+			}
+
+
+
+
+
+
+.vertical-split {
+	display: flex;
+	flex:1;
+	margin-left:10%;
+	margin-right:10%;
+
+	height: 50vh;
+	text-align: center;
+	overflow: hidden;
+	text-align: center;	
+	height: 100vh;
+	}
+
+
+	 	  /* Style for the left part */
+		   .left-part {
+			flex: 1;  /*Takes up all available space */
+			background-color: #50C878; /* Change the background color as needed */
+
+		}
+
+			  /* Style for the right part */
+			  .right-part {
+				flex: 1;  /*Takes up all available space */
+				background-color: #fd73e6; /* Change the background color as needed */
+				color: #2F4F4F; /* Dark Slate Gray */
+
+			}
+		/* Style for the footer container */
+.footer{background-color: hsl(200, 60%, 29%);
+	display:flex;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;		
+	padding: 10px;
+	width:100%;
+	overflow: hidden; /* Clear the floats inside the footer */
+	}
+
+			/* Style for the .staff container */
+			.staff {
+				display: inline-flex;
+				position: relative;
+				align-items: center;
+				width:50%;
+			}
+
+			/* Style for the list items within ul elements */
+			.staff li {
+				display: inline;
+				margin-right: 20px; /* Add spacing between list items */
+				list-style: none;
+				font-size: 20pt;
+			}
+
+			/* Style for the links within list items */
+			.staff a {
+				text-decoration: none;
+				color: white;
+			}
+
+			.notify-form {
+				display: inline-flex;
+				position: relative;
+				align-items: center;
+				text-align: right;
+				font-size: 20pt;
+				color: white;
+				bottom: 0px;
+				right: 0px;
+				width: 50%;
+				}
+
+
+	
+	
